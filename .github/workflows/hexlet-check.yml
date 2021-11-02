@@ -15,13 +15,13 @@ on:
     tags:
       - '**'
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Hexlet project check
-        uses: hexlet/project-action@release
-        with:
-          hexlet-id: ${{ secrets.HEXLET_ID }}
+#jobs:
+#  build:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v2
+#
+#      - name: Hexlet project check
+#        uses: hexlet/project-action@release
+#        with:
+#          hexlet-id: ${{ secrets.HEXLET_ID }}
